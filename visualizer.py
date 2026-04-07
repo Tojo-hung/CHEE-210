@@ -320,9 +320,7 @@ def plot_phase2_contours(
     """
     fig, axes = plt.subplots(2, 2, figsize=(13, 10))
     fig.suptitle(
-        rf"Phase 2 – Non-ideal Brayton Cycle on CO₂  "
-        rf"($r_p={rp:.1f}$, $\dot{{Q}}_{{in}}={Q_dot_in_MW:.0f}\,\mathrm{{MW}}$, "
-        rf"$T_{{max}}={T_max_C:.0f}\,°C$)",
+        rf"Phase 2 - Non-ideal Brayton Cycle on $CO_2$",
         fontsize=13, fontweight="bold", y=0.99,
     )
 
@@ -434,7 +432,7 @@ def plot_phase3_comparison(
     fig, (ax_ts, ax_bar) = plt.subplots(1, 2, figsize=(13, 5))
     fig.suptitle(
         rf"Phase 3 - Ideal Brayton Cycle: Ideal Gas vs Real $CO_2$  "
-        rf"($r_p={rp:.2f}$, $\dot{{Q}}_{{in}}={Q_dot_in_MW:.0f}\,\mathrm{{MW}}$)",
+        rf"($r_p={rp:.2f}$, \dot{{Q}}_{{in}}={Q_dot_in_MW:.0f}\,\mathrm{{MW}}$)",
         fontsize=13, fontweight="bold",
     )
 
