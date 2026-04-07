@@ -23,7 +23,7 @@ def main(show_plots: bool = True):
     cycle = build_default_cycle()
     phase1 = solve_phase1_workflow(cycle)
     phase2 = solve_phase2_workflow(cycle, phase1=phase1)
-
+    
     print_phase2_report(phase2)
     create_phase2_figures(phase2)
 

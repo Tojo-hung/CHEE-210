@@ -21,7 +21,6 @@ def main(show_plots: bool = True):
     phase1 = solve_phase1_workflow(cycle)
 
     plot_phase1_optimization(phase1.sweep)
-    plot_phase1_optimization_old(phase1.sweep)
 
     print_phase1_report(phase1)
 
